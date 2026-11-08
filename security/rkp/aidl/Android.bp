@@ -9,6 +9,8 @@ package {
 
 aidl_interface {
     name: "android.hardware.security.rkp",
+    // DITING_RECOVERY_CRYPTO_VARIANT
+    recovery_available: true,
     vendor_available: true,
     srcs: [
         // This HAL was originally part of keymint.
